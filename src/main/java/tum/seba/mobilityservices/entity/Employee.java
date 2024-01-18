@@ -7,6 +7,7 @@ import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.ManyToMany;
 import jakarta.validation.constraints.NotBlank;
+import org.springframework.security.core.userdetails.UserDetails;
 
 @Entity
 public class Employee extends User {
